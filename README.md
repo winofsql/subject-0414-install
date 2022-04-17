@@ -7,6 +7,9 @@
   - ホームボタンの URL を設定\
   ![image](https://user-images.githubusercontent.com/1501327/163296182-998fcc05-9da1-4eeb-86a7-982edfbb5384.png)
 ```
+[*.]google.com
+```
+```
 https://www.google.com/
 ```
 
