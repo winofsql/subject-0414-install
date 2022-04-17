@@ -6,6 +6,9 @@
   ![image](https://user-images.githubusercontent.com/1501327/163702402-3183dc3c-9439-49db-81d3-e1fc73d201fd.png)
   - ホームボタンの URL を設定\
   ![image](https://user-images.githubusercontent.com/1501327/163296182-998fcc05-9da1-4eeb-86a7-982edfbb5384.png)
+```
+https://www.google.com/
+```
 
 - ### ダウンロード
   ![image](https://user-images.githubusercontent.com/1501327/163702462-eae3b4e1-0099-498f-95b7-8adeafb3ae0d.png)
