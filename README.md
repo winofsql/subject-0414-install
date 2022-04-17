@@ -3,6 +3,7 @@
 - ### Google Chrome の設定
   - ブラウザを終了時にログアウトさせるサービスのドメインを登録する
   ![image](https://user-images.githubusercontent.com/1501327/163702374-adf4fe74-61cf-433d-a8d1-31952dcf8e8b.png)\
+  ![image](https://user-images.githubusercontent.com/1501327/162353063-283c81b3-20f0-4d91-900d-e88d0ae6a9d9.png)\
   ![image](https://user-images.githubusercontent.com/1501327/163702402-3183dc3c-9439-49db-81d3-e1fc73d201fd.png)
   - ホームボタンの URL を設定\
   ![image](https://user-images.githubusercontent.com/1501327/163296182-998fcc05-9da1-4eeb-86a7-982edfbb5384.png)
