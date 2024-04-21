@@ -46,8 +46,9 @@
     "8"="chat.openai.com"
     "9"="claude.ai"
     ```
-  - ホームボタンの URL を設定
+  - ホームボタンの表示と URL を設定
     ```
     [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome]
+    "ShowHomeButton"=dword:00000001
     "HomepageLocation"="https://www.google.com/"
     ```
