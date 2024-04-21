@@ -1,22 +1,53 @@
 # subject-220414-install
 
 - ### Google Chrome の設定
-  - ブラウザを終了時にログアウトさせるサービスのドメインを登録する
-  ![image](https://user-images.githubusercontent.com/1501327/163702374-adf4fe74-61cf-433d-a8d1-31952dcf8e8b.png)\
-  ![image](https://user-images.githubusercontent.com/1501327/162353063-283c81b3-20f0-4d91-900d-e88d0ae6a9d9.png)\
-  ![image](https://user-images.githubusercontent.com/1501327/163702402-3183dc3c-9439-49db-81d3-e1fc73d201fd.png)
-  - ホームボタンの URL を設定\
-  ![image](https://user-images.githubusercontent.com/1501327/163296182-998fcc05-9da1-4eeb-86a7-982edfbb5384.png)
-```
-[*.]google.com
-```
-```
-https://www.google.com/
-```
 
-- ### ダウンロード
-  ![image](https://user-images.githubusercontent.com/1501327/163702462-eae3b4e1-0099-498f-95b7-8adeafb3ae0d.png)
+  - ### chrome-policy.reg
+    ```
+    Windows Registry Editor Version 5.00
 
-
-- ### [広告ブロック](https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom)
-  ![image](https://user-images.githubusercontent.com/1501327/162353261-aa5d7984-d7da-493d-838a-f752665c40bf.png)
+    [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome]
+    "ShowHomeButton"=dword:00000001
+    "AutofillAddressEnabled"=dword:00000000
+    "HomepageLocation"="https://www.google.com/"
+    "BrowserThemeColor"="#FFFFFF"
+    "PromptForDownloadLocation"=dword:00000001
+    "AutofillCreditCardEnabled"=dword:00000000
+    "ShowAppsShortcutInBookmarkBar"=dword:00000000
+    "HomepageIsNewTabPage"=dword:00000000
+    "PasswordManagerEnabled"=dword:00000000
+    "TaskManagerEndProcessEnabled"=dword:00000001
+    "TranslateEnabled"=dword:00000001
+    "BrowserAddPersonEnabled"=dword:00000000
+    "NTPCustomBackgroundEnabled"=dword:00000000
+    
+    [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome\CookiesSessionOnlyForUrls]
+    "1"="[*.]google.com"
+    "2"="github.com"
+    "3"="replit.com"
+    "4"="[*.]lolipop.jp"
+    "5"="paiza.jp"
+    "6"="[*.]zoom.us"
+    "7"="twitter.com"
+    "8"="chat.openai.com"
+    "9"="claude.ai"
+    ```
+ 
+  - ブラウザを終了時にログアウトさせるサービスのドメイン
+    ```
+    [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome\CookiesSessionOnlyForUrls]
+    "1"="[*.]google.com"
+    "2"="github.com"
+    "3"="replit.com"
+    "4"="[*.]lolipop.jp"
+    "5"="paiza.jp"
+    "6"="[*.]zoom.us"
+    "7"="twitter.com"
+    "8"="chat.openai.com"
+    "9"="claude.ai"
+    ```
+  - ホームボタンの URL を設定
+    ```
+    [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome]
+    "HomepageLocation"="https://www.google.com/"
+    ```
